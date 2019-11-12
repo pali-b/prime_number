@@ -15,5 +15,11 @@ module.exports = {
 		}
 
 		return true;
+	},
+	outputResults: function(primeNumbers) {
+		for(i = 0; i < primeNumbers.length ; i++) {
+			console.log(primeNumbers[i]);
+		}
 	}
 }
+
